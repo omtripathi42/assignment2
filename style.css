@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #ffffff;
+  padding: 60px 20px;
+}
+
+.timeline-container {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+/* Horizontal Line */
+.timeline-line {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(to right, #0088cc, #2ecc71);
+}
+
+/* Timeline Layout */
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* Each Item */
+.timeline-item {
+  width: 23%;
+  text-align: center;
+  position: relative;
+}
+
+/* Dot */
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.dot.blue {
+  background: #0088cc;
+}
+
+.dot.green {
+  background: #2ecc71;
+}
+
+/* Card */
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  color: #0088cc;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.5;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #ffffff;
+  padding: 60px 20px;
+}
+
+.timeline-container {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+/* Horizontal Line */
+.timeline-line {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(to right, #0088cc, #2ecc71);
+}
+
+/* Timeline Layout */
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* Each Item */
+.timeline-item {
+  width: 23%;
+  text-align: center;
+  position: relative;
+}
+
+/* Dot */
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.dot.blue {
+  background: #0088cc;
+}
+
+.dot.green {
+  background: #2ecc71;
+}
+
+/* Card */
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  color: #0088cc;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.5;
+}
